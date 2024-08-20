@@ -3,28 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Alice Hermann">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/indexStyle.css">
     <title>Exercícios Frontend</title>
 </head>
 
 <body>
-    <header>
-        Login
-    </header>
-    <div>
+    <div class="container">
+        <div class="header">
+            Login
+        </div>
         <!--Formularios-->
-        <input type="email" id="email" placeholder="Email">
-        <input type="senha" id="senha" placeholder="Password">
-        <button>Login</button>
-        <div>Forgot 
-        <a href="forPass.html">Password?</a></div>
-    </div>
-    <class="signUp" div> Dont have an account?<a href="signUp.html"> Sign Up</a>
-    </div>
-    <footer>
-        <p>&copy;2024 Direitos reservados a Alice Hermann</p>
-    </footer>
+        <form action="login">
+            <input type="email" id="email" placeholder="Email" required>
+
+            <input type="senha" id="senha" placeholder="Password" required>
+            <div class="botao">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <div class="fimPage">
+            <div class="senha">Forgot
+                <a href="forPass.html">Password?</a>
+            </div>
+            <div class="signUp">Dont have an account?<a href="signUp.html"> Sign Up</a>
+            </div>
+        </div>
+
 </body>
 
 </html>
