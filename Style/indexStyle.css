@@ -74,14 +74,22 @@ button:hover {
     padding: 20px;
     margin-top: 20px;
 }
-.senha{
+
+.senha {
     margin-bottom: 20px;
 }
-.senha a{
+
+.senha a {
     text-decoration: none;
     color: #8db9f2;
 }
-.signUp a{
+
+.signUp a {
     text-decoration: none;
-    color: #8db9f2;  
+    color: #8db9f2;
+}
+.arrow{
+ position: absolute; 
+ transform: translate(45vw,-50%);
+ /* float: right; */
 }
